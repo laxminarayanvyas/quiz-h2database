@@ -23,3 +23,21 @@ Created API endpoints for user who can start quiz, get question, submit answer t
       </ol>
    </li>
 </div>
+<div>
+   <h3>H2 database console</h3>
+   <li>
+      <ol>URL: http://localhost:8080/h2-console</ol>
+      <ol>JDBC URL: jdbc:h2:mem:quiz</ol>
+      <ol>username: root</ol>
+      <ol>password: root</ol>
+   </li>
+</div>
+<div>
+   <h3>APIs</h3>
+   <li>
+      <ol>Start quiz: POST /api/quiz/start/{userId}</ol>
+      <ol>Get Question: GET /api/quiz/question</ol>
+      <ol>Submit answer: POST /api/quiz/submit/{sessionId}/{questionId}?answer={your_answer}</ol>
+      <ol>Get statistic(result): GET /api/quiz/stats/{sessionId}</ol>
+   </li>
+</div>
